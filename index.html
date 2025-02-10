@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Internship Project</title> -->
+    <title>Srv_IT - EmpowSrvering Future IT Professionals</title>
+
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Srv_IT</h1>
+    <img src="Srv_Codes.png" alt="SrvLogo_Img" class="IT_Logo">
+    <p>Srv_IT is a premier IT institute offering the latest in-demand courses to help students excel in the tech industry. Our expert instructors, flexible learning options, and cutting-edge curriculum ensure you stay ahead in your career.</p>
+    
+    <!-- Button to Change Background Color -->
+    <button id="changeColorBtn">Change Background Color</button>
+    
+    <!-- Button to Fetch API Data -->
+    <button id="fetchDataBtn">Fetch Random Post</button>
+     
+    <!-- Section to Display API Data -->
+    <div id="postContainer">
+        <h3 id="postTitle"></h3>
+        <p id="postBody"></p>
+    </div>
+
+    <p>At Srv_IT, we believe in nurturing talent and equipping students with practical skills that meet industry standards. Our courses are designed to be hands-on, interactive, and aligned with the latest technological advancements. Whether you are a beginner or a professional looking to upskill, we have the right program for you.</p>
+    <p>We pride ourselves on our community of passionate learners and experienced mentors. With a strong focus on real-world applications and continuous learning, Srvm_IT is committed to helping you achieve your career goals in the dynamic world of Information Technology.</p>
+
+    <!-- Link JavaScript File -->
+    <script src="script.js"></script>
+
+     <!-- Courses Section -->
+    <section class="courses-section">
+        <h2>Our Courses</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Mode</th>
+                    <th>Fee (INR)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Full Stack Web Development</td>
+                    <td>Online</td>
+                    <td>30,000</td>
+                </tr>
+                <tr>
+                    <td>Full Stack Web Development</td>
+                    <td>Offline</td>
+                    <td>25,000</td>
+                </tr>
+                <tr>
+                    <td>Data Science & Machine Learning</td>
+                    <td>Online</td>
+                    <td>35,000</td>
+                </tr>
+                <tr>
+                    <td>Data Science & Machine Learning</td>
+                    <td>Offline</td>
+                    <td>28,000</td>
+                </tr>
+                <tr>
+                    <td>Cybersecurity & Ethical Hacking</td>
+                    <td>Online</td>
+                    <td>25,000</td>
+                </tr>
+                <tr>
+                    <td>Cybersecurity & Ethical Hacking</td>
+                    <td>Offline</td>
+                    <td>20,000</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Note: All courses come with certification upon successful completion.</p>
+    </section>
+    
+    <!-- CONTACT_FORM SECTION -->
+    <section id="contactme" class="contact">
+        <h2 id="formHead">Contact Us</h2>
+        <p>Have questions about our courses or need more information? Fill out the form below, and we'll get back to you shortly!</p>
+
+        <form class="contact-form">
+            <div class="contact-details">
+               <label for="name">Name</label>
+               <input type="text" id="yourname" placeholder="Yourname">
+
+               <label for="subject">Subject</label>  
+               <input type="text" id="subject" placeholder="Reason for your msg">
+
+               <label for="email">Email Address</label>
+               <input type="text" id="email" placeholder="Your email address">
+
+            </div>
+            <div class="message">
+               <label for="msg">Message</label> 
+               <textarea id="msg" rows="15" placeholder="Type your message here..."></textarea>
+               <button type="submit">Submit</button>
+
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
